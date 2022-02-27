@@ -1,9 +1,7 @@
-from email import message
-from turtle import title
 from flask import render_template,url_for
 from . import main
 from ..requests import get_source, get_news
-from ..models import Source, Article
+from ..models import Source,Article
 
 # Views
 @main.route('/')
