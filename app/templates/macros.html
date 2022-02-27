@@ -1,0 +1,2 @@
+{% macro displaySourcesList(source_list) %} {% for source in source_list %}
+<a id="source-name" href="/articles/{{source.id}}">{{source.name}}</a> {% endfor %} {% endmacro %}
