@@ -25,3 +25,26 @@ def get_source(thesource):
 
 
     return news_sources
+
+def process_sources(source_list):
+    '''
+    Function  that processes the source result and transform them to a list of Objects
+    Args:
+        sources_list: A list that contain various article sources
+    Returns :
+        news_sources: A list of source objects
+    '''
+    news_sources = []
+    for source_item in source_list:
+      
+        id = source_item.get('id')
+        name = source_item.get('name')
+        description = source_item.get('description')
+        url = source_item.get('url')
+        
+
+        if name:
+            news_object_sources =Source(id,name,description,url)
+            news_sources.append(news_object_sources)
+
+    return news_sources
