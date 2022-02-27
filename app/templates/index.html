@@ -1,1 +1,18 @@
 {% import 'macros.html' as macro%}
+
+<body>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>The different news's sources</h1>
+                <p>Click on the source to find out the source's articles.</p>
+
+                <div>
+                    {{macro.displaySourcesList(sources)}}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
