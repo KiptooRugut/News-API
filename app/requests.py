@@ -3,9 +3,13 @@ import urllib.request,json
 from .models import Source,Article
 
 # Getting api key
-api_key = app.config['NEWS_API_KEY']
-# Getting the news base url
-base_url = app.config["NEWS_API_BASE_URL"]
+api_key = None
+# Getting the source base url
+base_url = None
+#Getting the article base url
+article_url=None
+
+
 
 def get_source(thesource):
     '''
