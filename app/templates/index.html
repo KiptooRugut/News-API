@@ -4,11 +4,13 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <h1>The different news's sources</h1>
-                <p>Click on the source to find out the source's articles.</p>
+                <h1 style="padding-top: 3%;">The different news's sources</h1>
+                <p style="padding: 1%;">Click on the source to find out the source's articles.</p>
 
-                <div>
-                    {{macro.displaySourcesList(sources)}}
+                <div class="row">
+                    <div style="column-count: 4;">
+                        {{macro.displaySourcesList(sources)}}
+                    </div>
                 </div>
 
             </div>
@@ -17,4 +19,47 @@
 </body>
 
 
-{% endblock %}
+{% block footer %}
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">News-Hub</a>
+                        </li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>News-Hub</h3>
+                    <p>News-Hub Website is pleased to offer closed captioning on long-form content and certain other content that it makes available online via websites and apps on mobile devices.</p>
+                </div>
+                <div class="d-flex">
+                    <center>
+                        <ul>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-you-tube"></a>
+                        </ul>
+                    </center>
+                </div>
+            </div>
+            <p class="copyright">News-Hub © 2022</p>
+        </div>
+    </footer>
+</div>
+</div> {% endblock footer %} {% endblock %}
