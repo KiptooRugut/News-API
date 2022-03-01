@@ -1,9 +1,5 @@
 import unittest
-from app.models import Source
-# Source=models.Source
-# Article=models.Article
-
-
+from app.models import Source, Article
 
 class SourceTest(unittest.TestCase):
     '''

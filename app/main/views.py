@@ -13,7 +13,7 @@ def index():
     newsource=get_source('sources')
 
     title = 'Home- Welcome to The Best News Articles Preview Website'
-    return render_template('..index.html', title = title, sources=newsource)
+    return render_template('index.html', title = title, sources=newsource)
 
 
 
