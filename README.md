@@ -11,7 +11,7 @@ This is a News Hub application that consumes News Api hence the user is able to 
 
 ## Live Link
 
-https://news-hub-api.herokuapp.com/
+https://news-hubs.herokuapp.com/
 
 ## Screenshot
 
