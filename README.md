@@ -4,7 +4,7 @@
 
 ## Author
 
-[Kiptoo Rugut](https://github.com/ezekielkibiego)
+[Kiptoo Rugut](https://github.com/KiptooRugut)
 
 # Description
 This is a News Hub application that consumes News Api hence the user is able to read news from top news sources around the world by a click of a button. the user can choose from a wide range of sources, from general, entertainment, business and even sports.
@@ -15,7 +15,7 @@ https://news-hub-api.herokuapp.com/
 
 ## Screenshot
 
-<img src="app/static/images/Screenshot.png">
+<img src="app/static/images/HerokuNewsAPI.png">
 
 ## User Story
 
@@ -30,7 +30,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  git clone https://github.com/ezekielkibiego/News-Hub.git
+  git clone https://github.com/KiptooRugut/News-API.git
   ```
 2. Move to the folder and install requirements
   ```bash
@@ -50,7 +50,7 @@ To get the code..
   ```
 5. Testing the application
   ```bash
-  python3.6 manage.py test
+  python3.8 manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
 
@@ -67,10 +67,10 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Support and Contact Information 
 
-To make a contribution to the code used or for any queries feel free to contact me via my email addresses ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
+To make a contribution to the code used or for any queries feel free to contact me via my email addresses mccrug97@gmail.com
 
 ## License
 
 ### MIT LICENCE
 
-####
+#### LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE).
